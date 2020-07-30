@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>template</title>
+    <title>REGISTRATION</title>
 
 
 <style>
@@ -63,7 +63,7 @@
 </head>
 <body>
 <Header>
-        <h1>LOGOTYPE</h1>
+        <h1>REGISTRO!!</h1>
 </Header>
 <?php 
     include "modules/navigation.php"
@@ -71,8 +71,8 @@
 <section>
 <?php 
 
-$mvc = new MvcController();
-$mvc-> enlacesDePaginasController();
+$usersAdd = new registerController();
+$usersAdd-> enlacesDePaginasController();
 
 ?>
 </section>

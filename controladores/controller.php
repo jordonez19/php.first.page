@@ -1,8 +1,8 @@
 <?php 
-class MvcController{
+class registerController{
 #LLAMADA A LA PLANTILLA
 #--------------------------------------
-    public function plantilla(){
+    public function pagina(){
 
         include "vista/template.php";
     }

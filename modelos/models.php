@@ -5,9 +5,11 @@ class enlacesPaginas{
     public function enlacesPaginasModel($enlacesModel){
 
     
-    if ($enlacesModel == "nosotros"||
-        $enlacesModel == "servicios"||
-        $enlacesModel == "contactos"){
+    if ($enlacesModel == "index"||
+        $enlacesModel == "Ingresar"||
+        $enlacesModel == "Usuarios"||
+        $enlacesModel == "Editar"||
+        $enlacesModel == "Salir"){
 
         
         $module = "vista/modules/".$enlacesModel.".php";
@@ -16,11 +18,11 @@ class enlacesPaginas{
     
     else if($enlacesModel == "index.php"){
 
-        $module= "vista/modules/inicio.php";
+        $module= "vista/modules/registro.php";
     }
 
     else{
-        $module= "vista/modules/inicio.php"; 
+        $module= "vista/modules/registro.php"; 
 
     }
     

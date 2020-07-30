@@ -1,11 +1,8 @@
 <nav >
     <ul >
-        <li><a href="index.php?index.php" >inicio</a></li>
-
-        <li><a href="index.php?action=nosotros">nosotros</a></li>
-
-        <li><a href="index.php?action=servicios">Servicios</a></li>
-
-        <li><a href="index.php?action=contactos">Contactos</a></li>
+        <li><a href="index.php" >Registro</a></li>
+        <li><a href="index.php?action=Ingreso">Ingreso</a></li>
+        <li><a href="index.php?action=Usuarios">Usuarios</a></li>
+        <li><a href="index.php?action=Salir">Salir</a></li>
     </ul>
 </nav>
